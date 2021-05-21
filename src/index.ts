@@ -1,7 +1,11 @@
 // NOTE: This code has not been converted to TypeScript yet
-const arrays = require('./utilities/arrays.js');
-const numbers = require('./utilities/numbers.js');
-const strings = require('./utilities/strings.js');
+// const arrays = require('./utilities/arrays.js');
+// const numbers = require('./utilities/numbers.js');
+// const strings = require('./utilities/strings.js');
+
+import * as arrays from './utilities/arrays.js';
+import * as numbers from './utilities/numbers.js';
+import * as strings from './utilities/strings.js'
 
 const numArr = [3, 4, 5, 6];
 const wordArr = ['cat', 'dog', 'rabbit', 'bird'];
